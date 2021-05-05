@@ -1,0 +1,51 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* clockcontainer css */
+#clockContainer{
+    /* set width n ht same wrt vw */
+    width: 40vw;
+    height: 40vw;
+    background: url('clock.png') no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    position: relative;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    /* to change transform origin to bottom */
+    transform-origin: bottom;
+}
+/* hour hand */
+#hour{
+    width: 2%;
+    height: 22%;
+    top: 28%;
+    left: 48.7%;
+    /* display: none;  */
+    /*display:none to style other hands */
+} 
+/* minute hand */
+#minute{
+    width: 1.2%;
+    height: 28%;
+    top: 22%;
+    left: 49.12%;
+    /* display: none; */
+    opacity: .7;
+}
+/* seconds hand */
+#second{
+    width: .7%;
+    height: 34%;
+    top: 15%;
+    left: 49.4%;
+    /* display: none; */
+    opacity: .3;
+}
