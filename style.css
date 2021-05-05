@@ -9,7 +9,7 @@
     /* set width n ht same wrt vw */
     width: 40vw;
     height: 40vw;
-    background: url('./Analog-clock/clock.png') no-repeat;
+    background: url('clock.png') no-repeat;
     background-size: 100% 100%;
     margin: auto;
     position: relative;
